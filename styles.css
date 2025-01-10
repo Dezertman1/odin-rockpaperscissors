@@ -1,15 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
-  font-family: Roboto, sans-serif;
+  font-family: system-ui, sans-serif;
   color: black;
   background-color: white;
 }
 
 main {
-  padding: 1em;
+  padding: 1rem;
 }
 
 h1 {
   font-weight: bold;
   font-size: 1.5rem;
+}
+
+button {
+  padding: 8px;
+  margin: 8px;
 }
